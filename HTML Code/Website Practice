@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<style>
+.center
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+
+  background-color: blue;
+  border-radius: 50%;
+  box-shadow: 25px 10px 10px 10px green;
+}
+
+#amin1{
+  animation-name: center;
+  animation-duration: 3s;
+}
+
+@@keyframes center {
+0%{
+  background-color: blue;
+}
+100%{
+  background-color: red;
+}
+}
+</style>
+<div class="center" id=amin1></div>

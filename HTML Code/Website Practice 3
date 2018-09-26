@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+.fullCard{
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  #thumbnail{
+     box-shadow: 0 10px 20px rgba(0,0,0,30), 0 6px 6px rgba(0,0,0,30);
+     animation-name: hello;
+     animation-duration: 5s;
+  }
+  @keyframes hello {
+    0%{
+      background-color: blue;
+    }
+    50%{
+      background-color: red;
+    }
+    75%{
+      background-color: pink;
+    }
+    100%{
+      background-color: yellow;
+
+    }
+  }
+h1{
+  color: black;
+  font-size: em;
+  text-align: center;
+  font-family: monospace;
+}
+h2{
+  color: black;
+  text-align: center;
+  font-family:sans-serif;
+}
+p{
+  color: black;
+  text-align: center;
+  font-family: monospace;
+}
+ol{
+  color: black;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+button{
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+}
+button:hover{
+  animation-name: colorchange;
+  animation-duration: 1000ms;
+  animation-fill-mode: forwards;
+}
+@keyframes colorchange {
+  0%{
+
+  }
+  100%{
+    background-color: blue;
+  }
+}
+
+</style>
+
+<body>
+  <div class="fullCard" id="thumbnail">
+  <h1>Welcome</h1>
+
+
+  <h2>About Me</h2>
+    <p>John Coppa lives in Philadelphia, PA. He enjoys running and hanging with his wife Katie!
+    </p>
+
+
+  <h2>More information</h2>
+
+  <ol>
+    <li>I like Mac and Cheese</li>
+    <li>I'm a pretty slow runner</li>
+    <li>I have a cat named Claude</li>
+  </ol>
+<div>
+<button>Click Here Baby</button>
+
+
+</body>
+</html>

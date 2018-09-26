@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+<style>
+h1{
+  text-align: center;
+  font-size: 24pt;
+}
+h2{
+  text-align: center;
+  font-size: 12pt;
+
+}
+#main {
+  text-align: center;
+  background: gray;
+  border-radius: 0%;
+  border-left: 10px;
+  height: auto;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10%;
+
+}
+#img-div{
+  max-width:100%;
+display: block;
+}
+.image1{
+  display: inline-block;
+  max-width: 100%;
+}
+#listbox{
+  background: white;
+  border-radius: 0px;
+  border-color: black;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+  position: inherit;
+}
+#tribute-info{
+  border-color: inherit;
+  border: 1px;
+  border-radius: 0%
+  font-style: italic;
+}
+
+</style>
+
+<body>
+<div class="outer" id="main">
+  <div id="title">
+    <h1>John Anthony Coppa</h2>
+    <h2>Aspiring Project Manager and Programmer</h2>
+  <div id="img-div">
+  <img  src="https://webapi.project-syndicate.org/library/fb4fc75c8ed95d9f15ae36b66787a6d5.4-3-large.1.jpg" class="image1" id="image" alt="Forest with trees">
+
+  <div id="img-caption">
+    <h2>Photo of some crazy trees!</h2>
+    </div>
+  </div>
+
+  <a id="tribute-link"href="http://www.google.com" target="_blank">Click here for more information on John Coppa!</a>
+<div id="listbox">
+    <div class="align-left"id="tribute-info">
+      <h3>John Coppa's Timeline<h3>
+      <ul>
+        <li>1984: John Coppa was born in West Palm Beach.</li>
+        <li>1999: John started High School.</li>
+        <li>2003: John attended college at the University of Central Florida.</li>
+        <li>2014: John received his doctorate in Music</li>
+        <li>2017: John Coppa married Katie Young</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+
+
+
+
+
+  <html>
