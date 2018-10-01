@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+body{
+  text-align: center;
+  background-color: beige;
+  font-family: monospace;
+
+}
+
+.container{
+background-color: white;
+max-width: 500px;
+margin: 0 auto;
+padding top: auto;
+padding:inherit;
+}
+
+.row {
+    display: inline-block;
+    text-align: center;
+    max-height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#submit{
+  border-radius: 0%;
+  border-color: black;
+  box-shadow: 1px 1px 2px 1px;
+
+}
+#submit:hover{
+  border-color: black;
+  box-shadow: 1px 1px 2px 3px;
+  text-shadow: 1px auto;
+}
+</style>
+
+
+<head>
+</head>
+
+<body>
+<h1 id="title" style="text-align:center;">Survey Form</h1>
+
+<div class="container">
+  <!-- Need to fill the action for the form in. -->
+  <p id="description">A brief survey on your general information</p>
+  <form id="survey-form" action="">
+    <div class="row">
+      <label id="name-label">
+      <p id="name-label">Full Name:</p>
+      <input id="name" type="text" placeholder="Please type here" required>
+    </label>
+    </div>
+<br>
+    <div class="row">
+      <label id="email-label">
+      <p>Email Address:<p>
+      <input id="email" type="email" required placeholder="Please type here">
+    </label>
+    </div>
+    <br>
+    <div class="row">
+      <label id="number-label">
+      <p>Age:</P>
+        <input id="number" type="number" max="125" min="1" placeholder="Please enter your age." required>
+      </label>
+      </div>
+    <br>
+    <div class="row">
+      <p>Do you like this survey?:</p>
+      <label>
+        <input value="yes" type="radio" name="yes-no">Yes!
+      </label>
+      <label>
+        <input value="no" type="radio" name="yes-no">No!
+      </label>
+
+    </div>
+    <br>
+    <div class="row">
+      <p>Where do you like to live?:</p>
+      <label>
+        <input value="city" type="radio" name="city-country">City
+      </label>
+      <label>
+        <input value="country" type="radio" name="city-country">Country
+      </label>
+
+    </div>
+    <br>
+    <div class="row">
+      <p>What kinds of dogs to you like?:</p>
+      <label for="dog-type">
+        <input value="boxer" type="checkbox" name="breed">Boxer
+      </label>
+      <label for="dog-type">
+        <input value="minipin" type="checkbox" name="breed">Minipin
+      </label>
+  </div>
+      <br>
+      <div class="row">
+        <p>Select how you feel most of the time:</p>
+          <select id="dropdown">
+            <option value="">--Please select below--
+            </option>
+              <option value="Happy">Happy</option>
+              <option value="Sad">Sad</option>
+              <option value="Excited">Excited</option>
+              <option value="N/A">No feelings</option>
+              <option value="Dead">Dead inside</option>
+            </select>
+          </div>
+          <br>
+        <div class="row">
+          <textarea placeholder="Add any additional comments!"></textarea>
+          <br>
+        <button id="submit" type="submit">Submit</button>
+        </div>
+
+  </form>
+
+</div>
+
+</body>
+
+</html>

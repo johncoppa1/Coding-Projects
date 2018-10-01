@@ -39,6 +39,8 @@ display: block;
   position: inherit;
 }
 #tribute-info{
+  padding-left: 10%;
+  padding-right: 10%;
   border-color: inherit;
   border: 1px;
   border-radius: 0%
@@ -62,7 +64,7 @@ display: block;
 
   <a id="tribute-link"href="http://www.google.com" target="_blank">Click here for more information on John Coppa!</a>
 <div id="listbox">
-    <div class="align-left"id="tribute-info">
+    <div style="text-align:left;"id="tribute-info">
       <h3>John Coppa's Timeline<h3>
       <ul>
         <li>1984: John Coppa was born in West Palm Beach.</li>
